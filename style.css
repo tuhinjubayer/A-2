@@ -1,0 +1,86 @@
+/* for max width */
+body {
+    max-width: 1440px;
+
+}
+
+/* for second */
+.badge-discount {
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.img-container {
+
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* for third */
+.cardWidth {
+    max-width: 232px;
+
+}
+
+.custom_btn {
+    background-color: #fce4ec;
+    /* Light background */
+    color: #007bff;
+    /* Blue text */
+    border-radius: 50px;
+    /* Fully rounded corners */
+    padding: 10px 30px;
+    /* Custom padding */
+    border: none;
+    /* Remove border */
+    font-weight: 500;
+    /* Slightly bolder text */
+    box-shadow: none;
+    /* No shadow */
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+}
+
+.custom_btn:hover {
+    background-color: #f8bbd0;
+    /* Slightly darker background on hover */
+}
+
+.custom_card {
+    padding: 0px;
+}
+
+.custom_card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    /* Slight box-shadow on hover */
+    transform: translateY(-10px);
+    /* Slightly move card up on hover */
+    transition: box-shadow 0.10s ease;
+    /* Smooth transition */
+    cursor: pointer;
+    /* Change cursor on hover */
+    background-color: #007bff;
+    color: white;
+    height: ;
+
+    .custom_btn {
+        background-color: #f8bbd0;
+        color: white;
+    }
+}
+
+/* for  footer size */
+.footerSize {
+
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 16px;
+
+}
