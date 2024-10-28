@@ -205,7 +205,7 @@
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="img-container">
               <img
-                src="/pic5.jpg"
+                src="pic5.jpg"
                 alt="Wedding Moment"
                 class="img-fluid w-100"
               />
@@ -214,12 +214,14 @@
           <!-- Text section -->
           <div class="col-lg-6 position-relative order-1 order-lg-2">
             <div class="badge-discount d-flex align-items-center">
-              <span>
-                &nbsp;&nbsp;
-                <i class="fa-solid fa-gift" style="color: #74c0fc"></i>
-                &nbsp;20% off on next booking &nbsp;
-                <i class="fa-solid fa-xmark"></i>
-              </span>
+              <div id="notification" class="alert alert-light d-flex align-items-center justify-content-between shadow-sm" role="alert">
+                <div>
+                  <i class="bi bi-gift text-primary me-2"></i>
+                  20% off on next booking
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              
             </div>
             <h2 class="display-4 fw-bold">Every moment is Precious</h2>
             <p class="text-secondary my-4">
@@ -565,7 +567,7 @@
           <div class="col-lg-6 order-1 order-lg-2   mb-5">
             <div class="img-container">
               <img
-                src="/pic9.jpg"
+                src="pic9.jpg"
                 alt="Wedding Moment"
                 class="img-fluid w-100"
               />
